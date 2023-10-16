@@ -1,0 +1,137 @@
+/* #main-navbar {
+  background-color: blue;
+  
+}
+
+#navbar-container {
+  background-color: gray;
+}
+
+#navbar-container ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+  left: 30%;
+}
+
+#navbar-container ul li {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  background-color: green;
+  
+}
+
+#navbar-container ul li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+#navbar-container ul li a:hover {
+  background-color: pink;
+}
+
+#sidebar {
+  right: 0;
+  position: fixed;
+  background-color: gray;
+}
+
+#sidebar-container ul {
+  position: relative;
+  list-style-type: none;
+  left: -25%;
+  background-color: salmon;
+}
+
+#sidebar-container ul li {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+#sidebar-container ul li a {
+  text-decoration: none;
+}
+
+#sidebar-container ul li a:hover {
+  background-color: bisque;
+  text-decoration: underline;
+} */
+
+
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left; /*what does this do? */
+  width: 100%;
+  position: relative; /*what does this do?*/
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative; /*what does this do?*/
+  left: 50%; /*how come when this is deleted, everything moves off the page to the left?*/
+  float: left; /*how come when i get rid of this the nav is uncentered again?*/
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative; /*how come when this is deleted, everything drifts right?*/
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed; /*how come when this is deleted, the sidebar moves to the left side?*/
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
+
+
+
+
+
