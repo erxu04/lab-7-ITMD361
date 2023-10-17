@@ -1,4 +1,90 @@
-/* #main-navbar {
+#main-navbar {
+  background-color: blue;
+  
+}
+
+#navbar-container {
+  /* background-color: gray; */
+}
+
+#navbar-container ul {
+  position: relative;
+  list-style-type: none;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: red; */
+  /* left: 50%; */
+  text-align: center;
+}
+
+#navbar-container ul li {
+  /* float: center; */ 
+  /* margin: 20px; */
+  /* padding: 10px; */
+  /* background-color: green; */
+  /* right: 50%; */
+  display: inline-block;
+  
+}
+
+#navbar-container ul li a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+#navbar-container ul li a:hover {
+  background-color: black;
+}
+
+#onpage {
+  text-decoration: overline underline;
+  color: black;
+}
+
+#sidebar {
+  right: 0%;
+  position: fixed;
+  background-color: red;
+  width:20%;
+  height: 100%;
+  
+}
+
+#sidebar-container ul {
+  position: relative;
+  list-style-type: none;
+  /* background-color: salmon; */
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+ }
+
+#sidebar-container ul li {
+  /* background-color: white; */
+  display: block;
+  text-align: center;
+  right: 20%;
+}
+
+#sidebar-container ul li a {
+  text-decoration: none;
+  display:block;
+  padding: 15px 0px;
+  color: #fff;
+}
+
+#sidebar-container ul li a:hover {
+  background-color: black;
+  /* text-decoration: underline; */
+
+}
+/* 
+#main-navbar {
   background-color: blue;
   
 }
@@ -10,18 +96,20 @@
 #navbar-container ul {
   position: relative;
   list-style-type: none;
-  margin: 0;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   overflow: hidden;
   background-color: red;
-  left: 30%;
+  text-align: center;
 }
 
-#navbar-container ul li {
-  float: left;
+#navbar-container ul li { 
   margin: 20px;
   padding: 10px;
   background-color: green;
+  display: inline-block;
   
 }
 
@@ -36,26 +124,34 @@
 }
 
 #sidebar {
-  right: 0;
+  right: 0%;
   position: fixed;
   background-color: gray;
+  width:20%;
+  height: 100%;
+  
 }
 
 #sidebar-container ul {
   position: relative;
   list-style-type: none;
-  left: -25%;
   background-color: salmon;
-}
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+ }
 
 #sidebar-container ul li {
   background-color: white;
-  margin: 10px;
-  padding: 10px;
+  display:block;
+  text-align:center;
+  right: 20%;
 }
 
 #sidebar-container ul li a {
   text-decoration: none;
+  display:block;
+  padding: 15px 0px;
 }
 
 #sidebar-container ul li a:hover {
@@ -64,29 +160,30 @@
 } */
 
 
+/*
 #main-navbar {
   background-color: blue;
   overflow: hidden;
 }
 
 #navbar-container {
-  float: left; /*what does this do? */
+  float: left;
   width: 100%;
-  position: relative; /*what does this do?*/
+  position: relative;
 }
 
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: relative; /*what does this do?*/
-  left: 50%; /*how come when this is deleted, everything moves off the page to the left?*/
-  float: left; /*how come when i get rid of this the nav is uncentered again?*/
+  position: relative; 
+  left: 50%; 
+  float: left; 
 }
 
 #main-navbar ul li {
-  float: left;
-  position: relative; /*how come when this is deleted, everything drifts right?*/
+  float: left; 
+  position: relative; 
   right: 50%;
   display: block;
 }
@@ -107,7 +204,7 @@
 }
 
 #sidebar {
-  position: fixed; /*how come when this is deleted, the sidebar moves to the left side?*/
+  position: fixed;
   right:0%;
   background-color: red;
   height: 100%;
@@ -118,11 +215,12 @@
   list-style-type: none;
   text-align: center;
   padding: 0;
+  margin-top: 0;
 }
 
 #sidebar ul li a {
   display: block;
-  padding: 15px 0;
+  padding: 15px 0px;
   color: #fff;
   text-decoration: none;
 }
@@ -131,7 +229,7 @@
   background-color: #000;
 }
 
-
+*/
 
 
 
